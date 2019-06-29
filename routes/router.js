@@ -6,7 +6,10 @@ const router = express.Router();
 
 router.get('/', async function (req, res) {
     // console.log("hiiiiiiiiiiiiiiiiiiiiiiiiii")
+
     area = req.query.area;
+    console.log("areaaaaaaaaaaaaa : ")
+    console.log(area)
     categories = req.query.category
     let response = await func.findResturant(area, categories)
     res.send(response)    
@@ -21,6 +24,12 @@ router.get('/:id', async function (req, res) {
 router.get('/:id/comments', async function (req, res) {
     id = req.params.id;
     let response = await func.getResturantComments(id)
+    res.send(response)    
+});
+
+router.get('/:area/areas', async function (req, res) {
+    id = req.params.area;
+    let response = await func.getAreas(id)
     res.send(response)    
 });
 
