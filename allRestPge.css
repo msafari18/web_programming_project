@@ -1,0 +1,347 @@
+.MainClass{
+    font-family: 'Shabnam', sans-serif;
+    text-align: right;
+
+}
+
+.TopOfPage{
+    text-align: center;
+}
+
+#img_1 {
+    width : 100%;
+}
+.NumberOfRest{
+    font-size: 120%;
+    padding-top: 10px;
+    padding-right: 180px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F8F8FA;
+}
+
+.RestSearch{
+    font-family: 'Shabnam', sans-serif;
+    text-align: right;
+    background-color: #F8F8FA;
+    width : 45%;
+    height: 20%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 180px;
+    margin-bottom: 40px;
+    padding-top: 12px;
+    padding-right: 20px;
+    font-size: 110%;
+    padding-bottom: 12px;
+}
+
+
+input:focus {
+    outline: none;
+    border: 1px solid #D40062;
+  }
+
+
+.PageContent {
+    /* align-items: right; */
+    display: grid;
+    /* float: right; */
+    grid-template-columns: 75% 25%;
+    background-color: #F8F8FA;
+    padding-bottom: 40px;
+
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 20px;
+    margin-top: 50px;
+    margin-right: 70px;
+    text-align: right;
+    direction: rtl; 
+}
+
+.ClosedContainer{
+  direction: rtl; 
+  display: grid;
+  margin-right: 70px;
+  grid-template-columns: 30% 30% 30%;
+  grid-row-gap: 20px;
+  margin-top: 50px;
+  /* margin-left: 100px; */
+  text-align: right;
+
+}
+
+.Restaurants{
+    /* display: grid; */
+    /* grid-auto-rows: 30%; */
+    direction: ltr;
+    background : white;
+    border : 1px solid #EDEDED;
+    text-align: right;
+    height: 100%;
+    float: right;
+    text-align: right;
+    margin: 10px;
+    border-radius: 5px;
+    /* display: inline; */
+    height: 100%;
+  }
+  .Restaurants:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  
+  }
+  .Restaurants:hover #OrderButton{
+    background-image:none;
+    background-color:rgb(255, 233, 245);
+  }
+
+  .ClosedRestaurants{
+    direction: ltr;
+    /* display: grid; */
+    /* grid-auto-rows: 30%; */
+    background : white;
+    border : 1px solid #EDEDED;
+    text-align: right;
+    height: 100%;
+    float: right;
+    text-align: right;
+    margin: 10px;
+    border-radius: 5px;
+    /* display: inline; */
+    height: 100%;
+    background-color: #e2e2e2;
+  }
+
+.cr{
+  margin-top: 60px;
+  padding-right: 70px;
+}
+
+.BI{
+    grid-template-rows: 70% 30%;
+    display: grid;
+    height: 100%;
+    /* background-color: #808080; */
+    
+}
+
+  .RestInfoImg{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: right;
+  }
+  .RestInfo{
+    padding-right: 10px;
+     text-align: right;
+  } 
+  .RestName{
+    color: black;
+    font-size: 120%;
+    margin-top: 20px;
+    text-align: right;
+      
+  } 
+  .RestCategories{
+    font-size: 80%;
+    color: black;
+    /* font:bold; */
+  }
+
+  .RestAddress{
+    color: #808080;
+    font-size: 65%;
+  }
+
+  .RestImg{
+   align-content:right;
+  }
+  
+  #RestImg{
+    width: 90px; 
+    margin-top: 15%;
+    margin-right: 10%;
+    border: 1px solid #EDEDED;
+    border-radius: 4%;
+  }
+
+  
+  
+  
+  
+.OrderButton{
+background-color: #F8F8FA;
+  text-align: center;
+    }
+
+  #OrderButton{
+    font-family: 'Shabnam', sans-serif;
+    background-color:#F8F8FA;
+    border : 1px solid #B22222;
+    border-radius: 25px;
+    font-size: 85%;
+    color: #B22222;
+    width: 45%;
+    height: 55%;
+    margin-top: 15px;
+   
+  }
+  #OrderButton:hover
+  {
+    background-image:none;
+    background-color:#FDDEEF;
+  }
+
+
+  .RightPart{
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-right: 100px;
+    width: 60%; 
+    background-color: #fff;
+    /* text-align: center; */
+  }
+
+  .CatTitle {
+    font-size: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #e2e2e2;
+  }
+
+  .CatSearch{
+    font-family: 'Shabnam', sans-serif;
+    text-align: right;
+    background-color: #F8F8FA;
+    width : 80%;
+    height: 2%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding-top: 12px;
+    padding-right: 5px;
+    font-size: 70%;
+    padding-bottom: 12px;
+  }
+
+  .Categories{
+    height: 30px;
+    padding: 10px;
+    text-align: right;
+    /* border-radius: 6px; */
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+    /* width: 100%; */
+    /* float: right; */
+  }
+
+  .CatLabel {
+    display: inline;
+    /* position: relative; */
+    padding-left: 5px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+ 
+  .CatLabel input {
+    
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    /* position: absolute; */
+    display: inline-block;
+    top: 12px;
+    left: 250px;
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    background-color: #eee;
+    right:0;
+  }
+  
+  .CatLabel:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .Categories:hover{
+    background-color: #EDEDED;
+  }
+  .CatLabel input:checked ~ .checkmark {
+    background-color: #D40062;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .CatLabel input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .CatLabel .checkmark:after {
+    display: inline-block;
+    left: 90px;
+    top: 100px;
+    width: 5px;
+    height: 11px;
+    border: solid white;
+    margin-top: 5px;
+    border-width: 0 1px 1px 0;
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #selectedPart {
+    border-bottom: 3px solid #e2e2e2;
+  }
+
+  @media screen and (max-width: 1250px) {
+  
+    .Container{
+      grid-template-columns: 45% 45%;
+
+    }
+  }
+
+    @media screen and (max-width: 1000px) {
+  
+      .RightPart{
+        display: none;
+      }
+      .Container{
+        grid-template-columns: 45% 45%;
+  
+      }
+      .ClosedContainer{
+        grid-template-columns: 45% 45%;
+      }
+
+
+      .PageContent{
+        grid-template-columns: 90% ;
+      }
+  }
+
+  @media screen and (max-width: 700px) {
+  
+    .RightPart{
+      display: none;
+    }
+    .Container{
+      grid-template-columns: 80%;
+
+    }
+    .ClosedContainer{
+      grid-template-columns: 80%;
+    }
+  }
